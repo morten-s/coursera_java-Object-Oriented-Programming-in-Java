@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_nSRxoDWVEeeYooAPPZBtzQ">
+  <modelElement href="UCSDUnfoldingMaps.uml#_n8FjoDWVEeeYooAPPZBtzQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_o0OskDWVEeeYooAPPZBtzQ" targetItem="_o0kq0DWVEeeYooAPPZBtzQ" sourceItem="_o0M3YDWVEeeYooAPPZBtzQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_o0a50DWVEeeYooAPPZBtzQ" targetItem="_o0lR9DWVEeeYooAPPZBtzQ" sourceItem="_o0aSwDWVEeeYooAPPZBtzQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_o0cvATWVEeeYooAPPZBtzQ" targetItem="_o0lSADWVEeeYooAPPZBtzQ" sourceItem="_o0cvADWVEeeYooAPPZBtzQ"/>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_o0M3YDWVEeeYooAPPZBtzQ" sourceConnectionVisual="_o0OskDWVEeeYooAPPZBtzQ" text="Implements a visual marker for cities on an earthquake map&#xA;&#xA;@author UC San Diego Intermediate Software Development MOOC team&#xA;@author Your name here&#xA; *" item="_o0kq0DWVEeeYooAPPZBtzQ">
+    <modelElement href="UCSDUnfoldingMaps.uml#_n_9-EDWVEeeYooAPPZBtzQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_o0aSwDWVEeeYooAPPZBtzQ" sourceConnectionVisual="_o0a50DWVEeeYooAPPZBtzQ" text="Implementation of method to draw marker on the map." item="_o0lR9DWVEeeYooAPPZBtzQ">
+    <modelElement href="UCSDUnfoldingMaps.uml#_n_9-ETWVEeeYooAPPZBtzQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_o0cvADWVEeeYooAPPZBtzQ" sourceConnectionVisual="_o0cvATWVEeeYooAPPZBtzQ" text="Show the title of the city if this marker is selected" item="_o0lSADWVEeeYooAPPZBtzQ">
+    <modelElement href="UCSDUnfoldingMaps.uml#_n_-lIDWVEeeYooAPPZBtzQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_o0kq0DWVEeeYooAPPZBtzQ" comments="_o0M3YDWVEeeYooAPPZBtzQ" targetConnectionVisual="_o0OskDWVEeeYooAPPZBtzQ" name="CityMarker">
+    <modelElement href="UCSDUnfoldingMaps.uml#_n8cwADWVEeeYooAPPZBtzQ"/>
+    <visualProperties xmi:id="_o0kq0TWVEeeYooAPPZBtzQ" position="30.0,30.0"/>
+    <visibility xmi:id="_o0kq0jWVEeeYooAPPZBtzQ" label="+"/>
+    <attributes xmi:id="_o0kq0zWVEeeYooAPPZBtzQ" defaultValue="5" name="TRI_SIZE" staticAttribute="true">
+      <modelElement href="UCSDUnfoldingMaps.uml#_n_ljkDWVEeeYooAPPZBtzQ"/>
+      <stereotypes xmi:id="_o0kq1DWVEeeYooAPPZBtzQ" name="LegacyStyledElement">
+        <modelElement href="UCSDUnfoldingMaps.uml#_n_nYwDWVEeeYooAPPZBtzQ"/>
+      </stereotypes>
+      <visibility xmi:id="_o0kq1TWVEeeYooAPPZBtzQ" label="+"/>
+      <cardinality xmi:id="_o0kq1jWVEeeYooAPPZBtzQ" label="1" max="1" min="1"/>
+      <type xmi:id="_o0kq1zWVEeeYooAPPZBtzQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_o0kq2DWVEeeYooAPPZBtzQ" name="getCity">
+      <modelElement href="UCSDUnfoldingMaps.uml#_n8vD4DWVEeeYooAPPZBtzQ"/>
+      <visibility xmi:id="_o0kq2TWVEeeYooAPPZBtzQ" label="+"/>
+      <cardinality xmi:id="_o0kq2jWVEeeYooAPPZBtzQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_o0kq2zWVEeeYooAPPZBtzQ">
+        <modelElement href="UCSDUnfoldingMaps.uml#_n8yHMDWVEeeYooAPPZBtzQ"/>
+        <type xmi:id="_o0kq3DWVEeeYooAPPZBtzQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_o0kq3TWVEeeYooAPPZBtzQ" name="getCountry">
+      <modelElement href="UCSDUnfoldingMaps.uml#_n8yuQDWVEeeYooAPPZBtzQ"/>
+      <visibility xmi:id="_o0kq3jWVEeeYooAPPZBtzQ" label="+"/>
+      <cardinality xmi:id="_o0kq3zWVEeeYooAPPZBtzQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_o0kq4DWVEeeYooAPPZBtzQ">
+        <modelElement href="UCSDUnfoldingMaps.uml#_n8zVUDWVEeeYooAPPZBtzQ"/>
+        <type xmi:id="_o0kq4TWVEeeYooAPPZBtzQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_o0kq4jWVEeeYooAPPZBtzQ" name="getPopulation">
+      <modelElement href="UCSDUnfoldingMaps.uml#_n8z8YDWVEeeYooAPPZBtzQ"/>
+      <visibility xmi:id="_o0kq4zWVEeeYooAPPZBtzQ" label="+"/>
+      <cardinality xmi:id="_o0kq5DWVEeeYooAPPZBtzQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_o0lR4DWVEeeYooAPPZBtzQ">
+        <modelElement href="UCSDUnfoldingMaps.uml#_n80jcDWVEeeYooAPPZBtzQ"/>
+        <type xmi:id="_o0lR4TWVEeeYooAPPZBtzQ" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_o0lR4jWVEeeYooAPPZBtzQ" name="CityMarker">
+      <modelElement href="UCSDUnfoldingMaps.uml#_n_bykDWVEeeYooAPPZBtzQ"/>
+      <keywords xmi:id="_o0lR4zWVEeeYooAPPZBtzQ" keyword="create"/>
+      <visibility xmi:id="_o0lR5DWVEeeYooAPPZBtzQ" label="+"/>
+      <cardinality xmi:id="_o0lR5TWVEeeYooAPPZBtzQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_o0lR5jWVEeeYooAPPZBtzQ">
+        <modelElement href="UCSDUnfoldingMaps.uml#_n_cZojWVEeeYooAPPZBtzQ"/>
+        <type xmi:id="_o0lR5zWVEeeYooAPPZBtzQ" name="CityMarker">
+          <modelElement href="UCSDUnfoldingMaps.uml#_n8cwADWVEeeYooAPPZBtzQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_o0lR6DWVEeeYooAPPZBtzQ" name="location">
+        <modelElement href="UCSDUnfoldingMaps.uml#_n_bykTWVEeeYooAPPZBtzQ"/>
+        <cardinality xmi:id="_o0lR6TWVEeeYooAPPZBtzQ" label="1" max="1" min="1"/>
+        <type xmi:id="_o0lR6jWVEeeYooAPPZBtzQ" name="Location">
+          <modelElement href="UCSDUnfoldingMaps.uml#_n_DYETWVEeeYooAPPZBtzQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_o0lR6zWVEeeYooAPPZBtzQ" name="CityMarker">
+      <modelElement href="UCSDUnfoldingMaps.uml#_n_dnwDWVEeeYooAPPZBtzQ"/>
+      <keywords xmi:id="_o0lR7DWVEeeYooAPPZBtzQ" keyword="create"/>
+      <visibility xmi:id="_o0lR7TWVEeeYooAPPZBtzQ" label="+"/>
+      <cardinality xmi:id="_o0lR7jWVEeeYooAPPZBtzQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_o0lR7zWVEeeYooAPPZBtzQ">
+        <modelElement href="UCSDUnfoldingMaps.uml#_n_eO0zWVEeeYooAPPZBtzQ"/>
+        <type xmi:id="_o0lR8DWVEeeYooAPPZBtzQ" name="CityMarker">
+          <modelElement href="UCSDUnfoldingMaps.uml#_n8cwADWVEeeYooAPPZBtzQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_o0lR8TWVEeeYooAPPZBtzQ" name="city">
+        <modelElement href="UCSDUnfoldingMaps.uml#_n_eO0DWVEeeYooAPPZBtzQ"/>
+        <cardinality xmi:id="_o0lR8jWVEeeYooAPPZBtzQ" label="1" max="1" min="1"/>
+        <type xmi:id="_o0lR8zWVEeeYooAPPZBtzQ" name="Feature">
+          <modelElement href="UCSDUnfoldingMaps.uml#_n-61MDWVEeeYooAPPZBtzQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_o0lR9DWVEeeYooAPPZBtzQ" comments="_o0aSwDWVEeeYooAPPZBtzQ" targetConnectionVisual="_o0a50DWVEeeYooAPPZBtzQ" name="draw">
+      <modelElement href="UCSDUnfoldingMaps.uml#_n_gEADWVEeeYooAPPZBtzQ"/>
+      <visibility xmi:id="_o0lR9TWVEeeYooAPPZBtzQ" label="+"/>
+      <cardinality xmi:id="_o0lR9jWVEeeYooAPPZBtzQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_o0lR9zWVEeeYooAPPZBtzQ" name="pg">
+        <modelElement href="UCSDUnfoldingMaps.uml#_n_gEATWVEeeYooAPPZBtzQ"/>
+        <cardinality xmi:id="_o0lR-DWVEeeYooAPPZBtzQ" label="1" max="1" min="1"/>
+        <type xmi:id="_o0lR-TWVEeeYooAPPZBtzQ" name="PGraphics">
+          <modelElement href="UCSDUnfoldingMaps.uml#_n_NwIDWVEeeYooAPPZBtzQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_o0lR-jWVEeeYooAPPZBtzQ" name="x">
+        <modelElement href="UCSDUnfoldingMaps.uml#_n_gEAjWVEeeYooAPPZBtzQ"/>
+        <cardinality xmi:id="_o0lR-zWVEeeYooAPPZBtzQ" label="1" max="1" min="1"/>
+        <type xmi:id="_o0lR_DWVEeeYooAPPZBtzQ" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_o0lR_TWVEeeYooAPPZBtzQ" name="y">
+        <modelElement href="UCSDUnfoldingMaps.uml#_n_grEDWVEeeYooAPPZBtzQ"/>
+        <cardinality xmi:id="_o0lR_jWVEeeYooAPPZBtzQ" label="1" max="1" min="1"/>
+        <type xmi:id="_o0lR_zWVEeeYooAPPZBtzQ" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_o0lSADWVEeeYooAPPZBtzQ" comments="_o0cvADWVEeeYooAPPZBtzQ" targetConnectionVisual="_o0cvATWVEeeYooAPPZBtzQ" name="showTitle">
+      <modelElement href="UCSDUnfoldingMaps.uml#_n_h5MDWVEeeYooAPPZBtzQ"/>
+      <visibility xmi:id="_o0lSATWVEeeYooAPPZBtzQ" label="+"/>
+      <cardinality xmi:id="_o0lSAjWVEeeYooAPPZBtzQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_o0lSAzWVEeeYooAPPZBtzQ" name="pg">
+        <modelElement href="UCSDUnfoldingMaps.uml#_n_h5MTWVEeeYooAPPZBtzQ"/>
+        <cardinality xmi:id="_o0lSBDWVEeeYooAPPZBtzQ" label="1" max="1" min="1"/>
+        <type xmi:id="_o0lSBTWVEeeYooAPPZBtzQ" name="PGraphics">
+          <modelElement href="UCSDUnfoldingMaps.uml#_n_NwIDWVEeeYooAPPZBtzQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_o0lSBjWVEeeYooAPPZBtzQ" name="x">
+        <modelElement href="UCSDUnfoldingMaps.uml#_n_igQDWVEeeYooAPPZBtzQ"/>
+        <cardinality xmi:id="_o0lSBzWVEeeYooAPPZBtzQ" label="1" max="1" min="1"/>
+        <type xmi:id="_o0lSCDWVEeeYooAPPZBtzQ" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_o0lSCTWVEeeYooAPPZBtzQ" name="y">
+        <modelElement href="UCSDUnfoldingMaps.uml#_n_igQTWVEeeYooAPPZBtzQ"/>
+        <cardinality xmi:id="_o0lSCjWVEeeYooAPPZBtzQ" label="1" max="1" min="1"/>
+        <type xmi:id="_o0lSCzWVEeeYooAPPZBtzQ" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_m2t3ADWVEeeYooAPPZBtzQ" name="UCSDUnfoldingMaps">
+    <eAnnotations xmi:id="_noJ7ADWVEeeYooAPPZBtzQ" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_noJ7ATWVEeeYooAPPZBtzQ" source="codegen">
+        <details xmi:id="_noKiEDWVEeeYooAPPZBtzQ" key="codegenDirectory" value="/UCSDUnfoldingMaps/src"/>
+        <details xmi:id="_ozuWQDWVEeeYooAPPZBtzQ" key="AssociatedSourceCode" value="/UCSDUnfoldingMaps/src/module5/CityMarker.java;2823155692/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_n7OoADWVEeeYooAPPZBtzQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_n7PPEDWVEeeYooAPPZBtzQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_n7PPETWVEeeYooAPPZBtzQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_n7P2IDWVEeeYooAPPZBtzQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_n7QdMDWVEeeYooAPPZBtzQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_n7QdMTWVEeeYooAPPZBtzQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_n7REQDWVEeeYooAPPZBtzQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_n7SSYDWVEeeYooAPPZBtzQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_n7TggDWVEeeYooAPPZBtzQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_n7mbcDWVEeeYooAPPZBtzQ" name="de">
+      <packagedElement xmi:type="uml:Package" xmi:id="_n7oQoDWVEeeYooAPPZBtzQ" name="fhpotsdam">
+        <packagedElement xmi:type="uml:Package" xmi:id="_n7o3sDWVEeeYooAPPZBtzQ" name="unfolding">
+          <packagedElement xmi:type="uml:Package" xmi:id="_n7qs4DWVEeeYooAPPZBtzQ" name="data">
+            <packagedElement xmi:type="uml:Class" xmi:id="_n-61MDWVEeeYooAPPZBtzQ" name="Feature"/>
+            <packagedElement xmi:type="uml:Class" xmi:id="_n-_tsDWVEeeYooAPPZBtzQ" name="PointFeature"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Package" xmi:id="_n7u-UDWVEeeYooAPPZBtzQ" name="geo">
+            <packagedElement xmi:type="uml:Class" xmi:id="_n_DYETWVEeeYooAPPZBtzQ" name="Location"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Package" xmi:id="_n7zPwDWVEeeYooAPPZBtzQ" name="marker">
+            <packagedElement xmi:type="uml:Class" xmi:id="_n_HpgTWVEeeYooAPPZBtzQ" name="SimplePointMarker"/>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_n70d4DWVEeeYooAPPZBtzQ" name="processing">
+      <packagedElement xmi:type="uml:Package" xmi:id="_n70d4TWVEeeYooAPPZBtzQ" name="core">
+        <packagedElement xmi:type="uml:Interface" xmi:id="_n_LT4DWVEeeYooAPPZBtzQ" name="PConstants"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_n_NwIDWVEeeYooAPPZBtzQ" name="PGraphics"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_n8FjoDWVEeeYooAPPZBtzQ" name="module5">
+      <packagedElement xmi:type="uml:Class" xmi:id="_n8cwADWVEeeYooAPPZBtzQ" name="CityMarker">
+        <ownedComment xmi:id="_n_9-EDWVEeeYooAPPZBtzQ">
+          <body>Implements a visual marker for cities on an earthquake map
+
+@author UC San Diego Intermediate Software Development MOOC team
+@author Your name here
+ *</body>
+        </ownedComment>
+        <generalization xmi:id="_n_juYDWVEeeYooAPPZBtzQ" general="_n_HpgTWVEeeYooAPPZBtzQ"/>
+        <ownedAttribute xmi:id="_n_ljkDWVEeeYooAPPZBtzQ" name="TRI_SIZE" isStatic="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_n_mKoDWVEeeYooAPPZBtzQ" value="5"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_n_00IDWVEeeYooAPPZBtzQ" name="CityMarker" specification="_n_bykDWVEeeYooAPPZBtzQ">
+          <ownedParameter xmi:id="_n_1bMDWVEeeYooAPPZBtzQ" name="location" type="_n_DYETWVEeeYooAPPZBtzQ"/>
+          <ownedParameter xmi:id="_n_1bMTWVEeeYooAPPZBtzQ" type="_n8cwADWVEeeYooAPPZBtzQ" direction="return"/>
+          <language>java</language>
+          <body>super(location);
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_n_6TsDWVEeeYooAPPZBtzQ" name="CityMarker" specification="_n_dnwDWVEeeYooAPPZBtzQ">
+          <ownedParameter xmi:id="_n_6TsTWVEeeYooAPPZBtzQ" name="city" type="_n-61MDWVEeeYooAPPZBtzQ"/>
+          <ownedParameter xmi:id="_n_6TsjWVEeeYooAPPZBtzQ" type="_n8cwADWVEeeYooAPPZBtzQ" direction="return"/>
+          <language>java</language>
+          <body>super(((PointFeature)city).getLocation(), city.getProperties());
+		// Cities have properties: &quot;name&quot; (city name), &quot;country&quot; (country name)
+		// and &quot;population&quot; (population, in millions)
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_n_66wDWVEeeYooAPPZBtzQ" name="draw" specification="_n_gEADWVEeeYooAPPZBtzQ">
+          <ownedParameter xmi:id="_n_66wTWVEeeYooAPPZBtzQ" name="pg" type="_n_NwIDWVEeeYooAPPZBtzQ"/>
+          <ownedParameter xmi:id="_n_66wjWVEeeYooAPPZBtzQ" name="x">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_n_66wzWVEeeYooAPPZBtzQ" name="y">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>// Save previous drawing style
+		pg.pushStyle();
+		
+		// IMPLEMENT: drawing triangle for each city
+		pg.fill(150, 30, 30);
+		pg.triangle(x, y-TRI_SIZE, x-TRI_SIZE, y+TRI_SIZE, x+TRI_SIZE, y+TRI_SIZE);
+		
+		// Restore previous drawing style
+		pg.popStyle();
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_n_7h0DWVEeeYooAPPZBtzQ" name="showTitle" specification="_n_h5MDWVEeeYooAPPZBtzQ">
+          <ownedParameter xmi:id="_n_7h0TWVEeeYooAPPZBtzQ" name="pg" type="_n_NwIDWVEeeYooAPPZBtzQ"/>
+          <ownedParameter xmi:id="_n_7h0jWVEeeYooAPPZBtzQ" name="x">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_n_7h0zWVEeeYooAPPZBtzQ" name="y">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>// TODO: Implement this method
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_n_8I4DWVEeeYooAPPZBtzQ" name="getCity" specification="_n8vD4DWVEeeYooAPPZBtzQ">
+          <ownedParameter xmi:id="_n_8I4TWVEeeYooAPPZBtzQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return getStringProperty(&quot;name&quot;);
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_n_8v8DWVEeeYooAPPZBtzQ" name="getCountry" specification="_n8yuQDWVEeeYooAPPZBtzQ">
+          <ownedParameter xmi:id="_n_8v8TWVEeeYooAPPZBtzQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return getStringProperty(&quot;country&quot;);
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_n_8v8jWVEeeYooAPPZBtzQ" name="getPopulation" specification="_n8z8YDWVEeeYooAPPZBtzQ">
+          <ownedParameter xmi:id="_n_8v8zWVEeeYooAPPZBtzQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return Float.parseFloat(getStringProperty(&quot;population&quot;));
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_n8vD4DWVEeeYooAPPZBtzQ" name="getCity" method="_n_8I4DWVEeeYooAPPZBtzQ">
+          <ownedParameter xmi:id="_n8yHMDWVEeeYooAPPZBtzQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_n8yuQDWVEeeYooAPPZBtzQ" name="getCountry" method="_n_8v8DWVEeeYooAPPZBtzQ">
+          <ownedParameter xmi:id="_n8zVUDWVEeeYooAPPZBtzQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_n8z8YDWVEeeYooAPPZBtzQ" name="getPopulation" method="_n_8v8jWVEeeYooAPPZBtzQ">
+          <ownedParameter xmi:id="_n80jcDWVEeeYooAPPZBtzQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_n_bykDWVEeeYooAPPZBtzQ" name="CityMarker" method="_n_00IDWVEeeYooAPPZBtzQ">
+          <eAnnotations xmi:id="_n_cZoDWVEeeYooAPPZBtzQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_n_cZoTWVEeeYooAPPZBtzQ" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_n_bykTWVEeeYooAPPZBtzQ" name="location" type="_n_DYETWVEeeYooAPPZBtzQ"/>
+          <ownedParameter xmi:id="_n_cZojWVEeeYooAPPZBtzQ" type="_n8cwADWVEeeYooAPPZBtzQ" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_n_dnwDWVEeeYooAPPZBtzQ" name="CityMarker" method="_n_6TsDWVEeeYooAPPZBtzQ">
+          <eAnnotations xmi:id="_n_eO0TWVEeeYooAPPZBtzQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_n_eO0jWVEeeYooAPPZBtzQ" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_n_eO0DWVEeeYooAPPZBtzQ" name="city" type="_n-61MDWVEeeYooAPPZBtzQ"/>
+          <ownedParameter xmi:id="_n_eO0zWVEeeYooAPPZBtzQ" type="_n8cwADWVEeeYooAPPZBtzQ" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_n_gEADWVEeeYooAPPZBtzQ" name="draw" method="_n_66wDWVEeeYooAPPZBtzQ">
+          <ownedComment xmi:id="_n_9-ETWVEeeYooAPPZBtzQ">
+            <body>Implementation of method to draw marker on the map.</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_n_gEATWVEeeYooAPPZBtzQ" name="pg" type="_n_NwIDWVEeeYooAPPZBtzQ"/>
+          <ownedParameter xmi:id="_n_gEAjWVEeeYooAPPZBtzQ" name="x">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_n_grEDWVEeeYooAPPZBtzQ" name="y">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_n_h5MDWVEeeYooAPPZBtzQ" name="showTitle" method="_n_7h0DWVEeeYooAPPZBtzQ">
+          <ownedComment xmi:id="_n_-lIDWVEeeYooAPPZBtzQ">
+            <body>Show the title of the city if this marker is selected</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_n_h5MTWVEeeYooAPPZBtzQ" name="pg" type="_n_NwIDWVEeeYooAPPZBtzQ"/>
+          <ownedParameter xmi:id="_n_igQDWVEeeYooAPPZBtzQ" name="x">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_n_igQTWVEeeYooAPPZBtzQ" name="y">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_noQosDWVEeeYooAPPZBtzQ">
+      <eAnnotations xmi:id="_noWIQDWVEeeYooAPPZBtzQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_noddADWVEeeYooAPPZBtzQ" base_Package="_m2t3ADWVEeeYooAPPZBtzQ">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:Reference xmi:id="_n-94gDWVEeeYooAPPZBtzQ" base_Element="_n-61MDWVEeeYooAPPZBtzQ"/>
+  <UMLLabProfile:Reference xmi:id="_n_DYEDWVEeeYooAPPZBtzQ" base_Element="_n-_tsDWVEeeYooAPPZBtzQ"/>
+  <UMLLabProfile:Reference xmi:id="_n_HpgDWVEeeYooAPPZBtzQ" base_Element="_n_DYETWVEeeYooAPPZBtzQ"/>
+  <UMLLabProfile:Reference xmi:id="_n_Ks0DWVEeeYooAPPZBtzQ" base_Element="_n_HpgTWVEeeYooAPPZBtzQ"/>
+  <UMLLabProfile:Reference xmi:id="_n_NJEDWVEeeYooAPPZBtzQ" base_Element="_n_LT4DWVEeeYooAPPZBtzQ"/>
+  <UMLLabProfile:Reference xmi:id="_n_QMYDWVEeeYooAPPZBtzQ" base_Element="_n_NwIDWVEeeYooAPPZBtzQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_n_nYwDWVEeeYooAPPZBtzQ" base_Element="_n_ljkDWVEeeYooAPPZBtzQ"/>
+</xmi:XMI>
